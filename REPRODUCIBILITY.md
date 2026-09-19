@@ -12,7 +12,7 @@ For this portfolio preparation, notebook JSON was parsed, every code cell was ch
 - Changed both main CSV reads to `DATA_PATH`, defaulting to `data/lending_analytics.csv`. The legacy `train.csv` fallback now resolves beside that input; it is not used when the notebook is run in order, because the training split already exists.
 - Replaced four hard-coded XGBoost `device="cuda"` settings with `device=XGB_DEVICE`; the default is CPU and the environment variable `CREDIT_RISK_XGB_DEVICE` can override it. Renamed the study label to remove the GPU-specific suffix. Numerical agreement with the saved GPU outputs is not guaranteed.
 - Removed the `df.head()` applicant-preview call and its saved table, private notebook metadata, execution counters, and stderr warning logs that contained local machine paths.
-- Reworded the legacy group-coordination message to describe its shared model-evaluation function. Authorship is presented as Tianjiao Jia's independently completed work, originally developed for QBUS6810.
+- Reworded the legacy group-coordination message to describe its shared model-evaluation function. Authorship is presented as Tianjiao Jia's independently completed credit-risk modelling project.
 - Added comments identifying the inherited XGBoost diagnostic issues below. Other model specifications, split seeds, tuning logic, and saved aggregate results were retained.
 
 No raw dataset or original course report is included. The repository is a documented portfolio edition, not a fully refactored modelling library.

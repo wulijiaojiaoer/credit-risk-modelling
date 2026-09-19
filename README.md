@@ -2,7 +2,7 @@
 
 **Tianjiao Jia · Independent project · Finance / FinTech**
 
-An end-to-end credit-risk research project connecting machine-learning predictions with lending decisions and explicit financial trade-offs. I independently completed the data analysis, feature engineering, model comparison, and payoff evaluation, originally for **QBUS6810 at the University of Sydney**.
+An end-to-end credit-risk research project connecting machine-learning predictions with lending decisions and explicit financial trade-offs. I independently completed the data analysis, feature engineering, model comparison, and payoff evaluation.
 
 **307,511 applications · 268 engineered modelling features · 0.7798 test ROC-AUC · 0.2733 test Average Precision**
 
@@ -97,6 +97,6 @@ The main next steps are a fresh temporal or external holdout, probability-calibr
 
 ## 中文简介
 
-**个人独立完成的消费信贷风险建模与收益决策项目**，源自悉尼大学 QBUS6810 课程。围绕约 30.75 万笔贷款申请，使用 Python 完成数据清洗、特征工程、机器学习模型比较与风险收益分析，将支付困难概率转换为不同风险偏好下的贷款审批决策。
+**个人独立完成的消费信贷风险建模与收益决策项目**。围绕约 30.75 万笔贷款申请，使用 Python 完成数据清洗、特征工程、机器学习模型比较与风险收益分析，将支付困难概率转换为不同风险偏好下的贷款审批决策。
 
 原始 Notebook 保存的 LightGBM 测试集结果为 **ROC-AUC 0.7798、Average Precision 0.2733**。项目展示金融分析、信用风险、数据处理与机器学习能力；收益为假设场景模拟值。仓库保留分析代码和汇总结果，不包含原始申请人数据、个人信息或课程报告。

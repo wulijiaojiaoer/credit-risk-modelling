@@ -1,0 +1,25 @@
+{
+  "provenance": "Rounded values transcribed from the original saved LightGBM test output; not rerun for this repository.",
+  "model": "lgbm_04_slow_learner_u",
+  "representation": "Full (268 features)",
+  "weighting": "unweighted",
+  "train_rows": 184506,
+  "validation_rows": 61502,
+  "test_rows": 61503,
+  "refit_rows": 246008,
+  "threshold": 0.216216,
+  "roc_auc": 0.7798,
+  "average_precision": 0.2733,
+  "precision": 0.3206,
+  "recall": 0.3082,
+  "approval_rate": 0.9224,
+  "rejection_rate": 0.0776,
+  "confusion_counts": {
+    "good_approved": 53296,
+    "good_rejected": 3242,
+    "payment_difficulty_approved": 3435,
+    "payment_difficulty_rejected": 1530
+  },
+  "simulated_average_payoff_per_applicant": 111753.57,
+  "payoff_units": "Illustrative monetary units; not realized profit or independently verified returns."
+}

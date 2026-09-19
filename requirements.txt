@@ -1,0 +1,16 @@
+# Proposed direct dependencies; not a fully tested lockfile.
+# Original saved notebook output identifies scikit-learn 1.8.0.
+numpy>=1.26,<3
+pandas>=2.2,<3.1
+scikit-learn==1.8.0
+matplotlib>=3.8,<3.11
+seaborn>=0.13,<0.14
+xgboost>=2.1,<4
+lightgbm>=4.5,<5
+optuna>=4,<5
+packaging>=23
+ipython>=8,<10
+jinja2>=3.1,<4
+tqdm>=4.66,<5
+jupyterlab>=4,<5
+ipykernel>=6,<8

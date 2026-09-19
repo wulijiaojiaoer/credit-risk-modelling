@@ -1,0 +1,32 @@
+# Original data, derived row-level data, and model binaries
+data/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.xlsx
+*.xls
+
+# Private configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Local environments and notebook caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Generated notebook figures; preserve the curated original figures
+/*.png
+!/lightgbm_confusion_matrix.png
+!/lightgbm_feature_importance.png
